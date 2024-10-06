@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Song Myung');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Song Myung;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+.container{
+    width: 100%;
+    height: 500px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container h1{
+    color: rgb(7, 197, 197);
+    padding: 20px;
+}
+.container .panel{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    padding: 20px 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px rgb(7, 197, 197);
+    gap: 15px;
+}
+.container .panel input{
+    width:100% ;
+    height: 30px;
+    background: transparent;
+    outline: 0;
+    border: 1px solid gray;
+    padding: 0px 10px;
+    color: white;
+    transition: all ease 0.4s;
+}
+.container .panel input:hover{
+    border: 2px solid rgb(7, 197, 197);
+}
+.container .panel textarea{
+    width:100% ;
+    height: 80px;
+    background: transparent;
+    outline: 0;
+    border: 1px solid gray;
+    padding: 0px 10px;
+    color: white;
+    transition: all ease 0.4s;
+}
+.container .panel textarea:hover{
+    border: 2px solid rgb(7, 197, 197);
+}
+.container .panel button{
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
